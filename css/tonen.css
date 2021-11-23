@@ -1,0 +1,53 @@
+button {
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: red;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 12%;
+}
+
+button p{
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0%;
+}
+
+div {
+    width: 100%;
+    text-align: left;
+
+}
+
+#selectie {
+    display: inline-block;
+    width: 20%;
+}
+
+#menu {
+    align-items: center;
+    display: flex;
+}
+
+#selectie p {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0%;
+}
+
+@media only screen and (max-width: 1500px) {
+    button p {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    button p {
+        font-size: 2em;
+    }
+}
