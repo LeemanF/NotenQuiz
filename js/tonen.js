@@ -177,7 +177,7 @@ function AddButtons() {
 function BuildMusicData() {
     musicData = musicDataBasis;
     quiz = false;
-    document.title = "Tonen herkennen";
+    document.title = "NotenQuiz";
 
     if(!cbxOctaaf3.checked) {
         musicData = musicData.filter(a => a.key.substr(1,1) != 3);
